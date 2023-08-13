@@ -7,3 +7,4 @@ RUN apk update \
   && ark get kubectl \
   && mv /root/.arkade/bin/kubectl /usr/local/bin/ \
   && rm -rf /tmp/* /var/cache/apk/* \
+
